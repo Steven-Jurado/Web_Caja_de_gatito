@@ -1,0 +1,242 @@
+
+/* VAriables */
+
+:root{
+    --green-color: #7acc2d;
+    --white-color: #ffffff;
+    --padding:10px;
+    --box-shadow:0 0 1px #c1bcbc;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-navbar{
+    background-color: var(--green-color);
+    padding: 15px;
+}
+
+.container-navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-navbar ul{
+    display: inherit;
+    justify-content: space-between;
+}
+
+.container-navbar li{
+    list-style: none;
+    margin: 0 15px;
+    padding-right: 10px;
+}
+
+.container-navbar a {
+    text-decoration: none;
+    font-weight: 400;
+    color:black;
+}
+
+.container-navbar a:hover{
+    color:var(--white-color);
+}
+
+
+/* main */
+
+.container-main{
+    padding: 10%;
+    text-align: center;
+}
+
+.container-curve{
+    background-image: url('../img/curve.png');
+    height: 50px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    display: flex;
+}
+
+
+.contet-cards{
+    padding: var(--padding);
+    margin-top: -320px;
+}
+
+.contet-cards .card {
+    background-color: var(--white-color);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+}
+
+.contet-cards .card h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.container-curve .contet-cards .card .content-img{
+    text-align: center;
+}
+
+
+ /* .container-curve  */
+.main-button{ 
+    margin-top: 20px;
+    color: var(--white-color);
+    background-color:var(--green-color);
+    width: 100%;
+    padding: var(--padding);
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-button:hover{
+    background-color: #5e9e22;
+}
+
+
+/* home */
+
+.container-mention{
+    display: flex;
+    justify-content: center;
+    padding: 11%;
+}
+
+.content-mention{
+    box-shadow: .5px 3px 2px 0px #c1bcbc ;
+}
+
+.container-mention .content-mention{
+    padding: var(--padding );
+    margin-right: 25px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+
+.container-mention .content-mention h2{
+    text-align: center;
+    padding: var(--padding);
+}
+
+.content-mention .mention-img{
+    text-align: center;
+    padding: var(--padding);
+    height: 165px;
+}
+
+.content-mention .mention-img img{
+    width: 150px;
+}
+
+
+/* ---------------------------------------------- */
+
+.container-testimony{
+    display: flex;
+    padding: 5%;
+}
+
+.testimony{
+    /* background-color: aqua; */
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: var(--padding);
+    box-shadow: 2px 3px 2px 0px #c1bcbc ;
+}
+
+
+
+.testimony-img {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+
+.testimony .content-testimony {
+    padding: var(--padding);
+}
+
+.testimony .content-testimony h2{
+    padding:10px 0;
+}
+
+.h1{
+    text-align: center;
+}
+
+/* -------------------------------------------------------------- */
+
+.content-mention:hover{
+    background-color: #e4e4e4;
+}
+
+.container-footer{
+    height: 80px;
+    background-color: #313337;
+}
+
+.content-footer ul{
+    height: 80px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+
+
+/* --------------------------------------------------- */
+.content-payment{
+    background-color: var(--white-color);
+    box-shadow: 2px 3px 2px 0px #e2dfdf ;
+    padding: var(--padding);
+}
+
+.content-payment .payment-img{
+    display: flex;
+    justify-content: center;
+}
+
+.content-payment h3{
+    padding: 10px 0px;
+}
+
+.content-payment input{
+    margin-top: 15px;
+    display: block;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--green-color);
+}
+
+.container-form{
+    padding: 38px;
+}
+

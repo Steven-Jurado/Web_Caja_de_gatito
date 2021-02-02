@@ -1,0 +1,21 @@
+@media (max-width: 600px){
+    .container-curve{
+        display: inherit;
+        height: auto;
+    }
+    .contet-cards{
+        margin-top: auto;
+    }
+    .container-main{
+        padding: 4%;
+    }
+    .container-mention,.container-testimony{
+        flex-wrap: wrap;
+    }
+    .container-mention .content-mention{
+        margin-bottom: 15px;
+    }
+    .testimony-img{
+        width: auto;
+    }
+}

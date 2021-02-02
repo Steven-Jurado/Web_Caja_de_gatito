@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand</title>
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="shortcut icon" href="../img/box_cat.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/animate.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-navbar fadeDown ">
+            <nav>
+                <div class="container-navbar-logo">
+                    <img src="../img/logo.png" alt="Logo">
+                </div>
+                <ul>
+                    <li> <a href="./product.html"> Producto </a> </li>
+                    <li> <a href="./index.html"> Home page </a> </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container container-form">
+            <div class="row">
+                <div class="colum-4">
+                    <div class="content-payment fadeUp">
+                        <figure class="payment-img" >
+                            <img src="../img/box_cat.png" alt="img of cat">
+                        </figure>
+                        <h3> Product </h3>
+                        <p> Este es producto increible, no se que haces viendo que lo que puedes tener</p>
+                    </div>
+                </div>
+                <div class="colum-8">
+                    <div class="content-payment animate__animated animate__bounce animate__backInLeft">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BFFSGNMKMXUNJ" method="POST"
+                         target="_top">
+                            <label for="name"> Nombre </label>  
+                            <input type="text" id="name" placeholder="Ingrese su Nombre" name="name">
+                            <br>
+                            <label for="email"> Correo </label>
+                            <input type="email" id="email" placeholder="Ingrese su Correo Electronico" name="email">
+                            <br>
+                            <label for="cellPhone"> Telefono </label>
+                            <input type="text" id="cellPhone" placeholder="Ingrese Su Numero de Telefono" name="phone">
+                            <button type="submit" class="main-button" > Enviar </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="content-footer">
+                <ul>
+                    <li><a href=""> Terminos y condiciones </a></li>
+                    <li><a href=""> contacto@est.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: #313337;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-paypal a{
+    text-decoration: none;
+    color:#7acc2d;
+    font-weight: bold;
+}
+
+.content-paypal a:hover{
+    font-size: 25px;
+}

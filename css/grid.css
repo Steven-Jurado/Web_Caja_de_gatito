@@ -1,0 +1,83 @@
+.container{
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+    padding: 80px 0px;
+}
+
+.colum-1{
+    width: 8.33%;
+}
+.colum-2{
+    width: 16.66%;
+}
+.colum-3{
+    width: 24.99%;
+}
+.colum-4{
+    width: 33.32%;
+}
+.colum-5{
+    width: 41.65%;
+}
+.colum-6{
+    width: 49.98%;
+}
+.colum-7{
+    width: 58.31%;
+}
+.colum-8{
+    width: 66.64%;
+}
+.colum-9{
+    width: 74.97%;
+}
+.colum-10{
+    width: 83.3%;
+}
+.colum-11{
+    width: 91.63%;
+}
+.colum-12{
+    width: 99.96%;
+}
+
+.colum-1,.colum-2,.colum-3,.colum-4,.colum-5,.colum-6,.colum-7,.colum-8,.colum-9,.colum-10,.colum-11,.colum-12{
+   padding: 10px;
+}
+
+.text-product{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.img-product{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.content-product h2{
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.content-product{
+    padding-left: 80px;
+
+}
+
+
+@media (max-width: 900px){
+    .row{
+        display: inherit;
+    }
+    .colum-1,.colum-2,.colum-3,.colum-4,.colum-5,.colum-6,.colum-7,.colum-8,.colum-9,.colum-10,.colum-11,.colum-12{
+        width: 100%;
+    }
+}
